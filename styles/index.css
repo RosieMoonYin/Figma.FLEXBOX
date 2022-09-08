@@ -1,0 +1,103 @@
+body{
+    max-width: 1600px; /*match to figma if 
+    making own design then choose value 1200/1600px
+    adding width percentage value means that it
+    will scale nicely on huge screens the contant 
+    stays in center and margins will expand beyond 100%*/
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 160%;
+/* or 48px */
+
+letter-spacing: -0.02em;
+
+
+}
+
+.medi {
+    color: #0A1B32;
+}
+.dot {
+    color: #4F56F1;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    list-style-type: none;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.nav-left-logo {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-right {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    }
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF; 
+
+    background: #4F56F1;
+    border-radius: 6px;
+}
